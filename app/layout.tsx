@@ -7,21 +7,21 @@ import { PrivyProvider } from "@privy-io/react-auth";
 const font = Outfit({ subsets: ["latin"] });
 
 const BitTorrent = defineChain({
-  id: 1029,
-  name: "BitTorrent Chain Donau",
-  network: "BitTorrent Chain Donau",
+  id: 5318008,
+  name: "Kopli Testnet",
+  network: "Kopli Testnet",
   nativeCurrency: {
     decimals: 18,
-    name: "BitTorrent Chain Donau",
-    symbol: "BTTC",
+    name: "REACT",
+    symbol: "REACT",
   },
   rpcUrls: {
     default: {
-      http: ["https://pre-rpc.bt.io/"],
+      http: ["https://kopli-rpc.rkt.ink/"],
     },
   } as any,
   blockExplorers: {
-    default: { name: "Explorer", url: "https://testscan.bt.io" },
+    default: { name: "Explorer", url: "https://kopli.reactscan.net/" },
   },
 }) as any;
 

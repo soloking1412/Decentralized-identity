@@ -7,7 +7,7 @@ export const contract = async () => {
   if (ethereum) {
     const signer = provider.getSigner();
     const contractReader = new ethers.Contract(
-      "0x041b5F12624D072A599F928e6143579D5B70Bd49",
+      "0x69b532335ebcd98301A74A9c6e04accBe6d84B35",
       identiFi.abi,
       signer
     );
